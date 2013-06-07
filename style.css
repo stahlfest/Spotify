@@ -4,7 +4,7 @@ html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: black;
+    background-color: #000;
 }
 
 
@@ -27,6 +27,14 @@ header{
 	border-top: solid 1px #000;
 	border-bottom: solid 1px #000;
 	box-shadow: 0 0 4px;
+}
+
+p, h3 {
+    color: #fff;
+    font-size: 1em;
+    font-family: "catwing",sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 a {
@@ -360,6 +368,7 @@ section{
     transition: all .3s ease-out;
     position: absolute;
     right: 8%;
+    background: url(info.svg) no-repeat center center;
 
 }
 
@@ -400,7 +409,6 @@ section{
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-
 }
 
 .info:hover span.circleBtm{
