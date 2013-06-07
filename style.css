@@ -1,5 +1,5 @@
 html{
-    background: url('bg.jpg') no-repeat center center fixed;
+    background: url('images/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -368,8 +368,6 @@ section{
     transition: all .3s ease-out;
     position: absolute;
     right: 8%;
-    background: url(info.svg) no-repeat center center;
-
 }
 
 .info:hover{
