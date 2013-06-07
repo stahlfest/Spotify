@@ -454,15 +454,15 @@ section {
 @media all and (min-width: 71.188em) {
   /* line 353, ../sass/style.scss */
   .info {
-    right: 3%;
-    top: 4em;
+    right: 6%;
+    top: 7em;
   }
 }
 @media all and (min-width: 78.75em) {
   /* line 353, ../sass/style.scss */
   .info {
     right: 4%;
-    top: 16em;
+    top: 29em;
   }
 }
 @media all and (min-width: 88em) {
