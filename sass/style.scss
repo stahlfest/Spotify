@@ -1,9 +1,11 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
+
+/*---Variables---*/
+
+/*---Colors---*/
+$white: #fff;
+$black: #000;
+$lightBorder: #b4b4b4;
 
 html{
   background: url('../images/bg.jpg') no-repeat center center fixed;
@@ -11,7 +13,7 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #000;
+  background-color: $black;
 }
 
 
@@ -24,20 +26,14 @@ header{
   height: 5em;
   margin-top: -2em;
   background: #201f1c;
-  background: -moz-linear-gradient(top,  #3d3d3d 0%, #2d2d29 1%, #201f1c 91%, #2d2c29 99%, #3d3d3d 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3d3d3d), color-stop(1%,#2d2d29), color-stop(91%,#201f1c), color-stop(99%,#2d2c29), color-stop(100%,#3d3d3d));
-  background: -webkit-linear-gradient(top,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
-  background: -o-linear-gradient(top,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
-  background: -ms-linear-gradient(top,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
   background: linear-gradient(to bottom,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', endColorstr='#3d3d3d',GradientType=0 );
-  border-top: solid 1px #000;
-  border-bottom: solid 1px #000;
+  border-top: solid 1px $black;
+  border-bottom: solid 1px $black;
   box-shadow: 0 0 4px;
 }
 
 p, h3 {
-  color: #fff;
+  color: $white;
   font-size: 1em;
   font-family: "catwing",sans-serif;
   font-style: normal;
@@ -47,13 +43,13 @@ p, h3 {
 a {
   color: #bbb;
   text-decoration: none;
-  text-shadow: 0 -1px 0 #000;
+  text-shadow: 0 -1px 0 $black;
 }
 
 a:hover {
-  color: #fff;
+  color: $white;
   text-decoration: none;
-  text-shadow: 0 -1px 0 #000;
+  text-shadow: 0 -1px 0 $black;
 }
 
 ul {
@@ -63,9 +59,10 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 2.3em;
+  margin-top: 1em;
   padding-left: 1.1em;
-  color: #fff;
-  text-shadow: 0 -1px 0 #000;
+  color: $white;
+  text-shadow: 0 -1px 0 $black;
 }
 
 li {
@@ -79,9 +76,9 @@ li {
   font-family: "catwing",sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #fff;
+  color: $white;
   text-align: center;
-  text-shadow: 0 -1px 0 #000;
+  text-shadow: 0 -1px 0 $black;
 }
 
 
@@ -318,13 +315,7 @@ section{
   width: 18.750em;
   padding: 1em;
   background: #201f1c;
-  background: -moz-linear-gradient(top,  #3d3d3d 0%, #2d2d29 1%, #201f1c 91%, #2d2c29 99%, #3d3d3d 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3d3d3d), color-stop(1%,#2d2d29), color-stop(91%,#201f1c), color-stop(99%,#2d2c29), color-stop(100%,#3d3d3d));
-  background: -webkit-linear-gradient(top,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
-  background: -o-linear-gradient(top,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
-  background: -ms-linear-gradient(top,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
   background: linear-gradient(to bottom,  #3d3d3d 0%,#2d2d29 1%,#201f1c 91%,#2d2c29 99%,#3d3d3d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', endColorstr='#3d3d3d',GradientType=0 );
   border: solid 1px #585858;
   box-shadow: 0 0 1px #ccc;
 }
@@ -332,24 +323,14 @@ section{
 .itemTitle{
   height: 4em;
   width: 20.750em;
-  -webkit-border-top-left-radius: 6px;
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  -moz-border-radius-topright: 6px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   background: #fcfaf5;
-  background: -moz-linear-gradient(top,  #ffffff 0%, #fcfaf5 1%, #fcfaf5 91%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(1%,#fcfaf5), color-stop(91%,#fcfaf5), color-stop(100%,#ffffff));
-  background: -webkit-linear-gradient(top,  #ffffff 0%,#fcfaf5 1%,#fcfaf5 91%,#ffffff 100%);
-  background: -o-linear-gradient(top,  #ffffff 0%,#fcfaf5 1%,#fcfaf5 91%,#ffffff 100%);
-  background: -ms-linear-gradient(top,  #ffffff 0%,#fcfaf5 1%,#fcfaf5 91%,#ffffff 100%);
   background: linear-gradient(to bottom,  #ffffff 0%,#fcfaf5 1%,#fcfaf5 91%,#ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-  border-top: solid 1px #b4b4b4;
-  border-left: solid 1px #b4b4b4;
-  border-right: solid 1px #b4b4b4;
-  border-bottom: solid 1px #000;
+  border-top: solid 1px $lightBorder;
+  border-left: solid 1px $lightBorder;
+  border-right: solid 1px $lightBorder;
+  border-bottom: solid 1px $black;
   box-shadow: 0 0 1px #9C9C9C;
 }
 
@@ -366,15 +347,52 @@ section{
   height: 380px;
 }
 
-.info{
-  width: 70px;
-  height: 70px;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  transition: all .3s ease-out;
-  position: absolute;
-  right: 8%;
+.info {
+  display: none;
+
+@media all and (min-width: 43em) /*688px*/ {
+  	display: block;
+  	width: 70px;
+	height: 70px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	transition: all .3s ease-out;
+	position: absolute;
+  	right: 16%;
+  	top: 15em;
+}
+
+  @media all and (min-width: 50em) /*800px*/ {
+	right: 19%;
+  }
+
+  @media all and (min-width: 56.25em) /*900px*/ {
+	right: 25%;
+  }
+
+  @media all and (min-width: 71.188em) /*1139px*/ {
+	right: 3%;
+	top: 4em;
+  }
+
+   @media all and (min-width: 78.75em) /*1260px*/ {
+  right: 4%;
+  top: 16em;
+}
+
+  @media all and (min-width: 88em) /*1408px*/ {
+	right: 8%;
+  }
+
+  @media all and (min-width: 100em) /*1600px*/ {
+	right: 12%;
+  }
+
+  @media all and (min-width: 120em) /*1920px*/ {
+	right: 18%
+  }
+
 }
 
 .info:hover{
