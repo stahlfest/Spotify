@@ -134,7 +134,7 @@ li {
   margin-right: 2%;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .homeTitle h1 {
   font-size: 3.7em;
   font-family: "catwing",sans-serif;
@@ -147,30 +147,30 @@ li {
 }
 
 @media all and (min-width: 68.75em) {
-  /* line 87, ../sass/style.scss */
+  /* line 86, ../sass/style.scss */
   .homeTitle h1 {
     font-size: 4em;
   }
 }
 @media all and (min-width: 81.25em) {
-  /* line 93, ../sass/style.scss */
+  /* line 92, ../sass/style.scss */
   .homeTitle h1 {
     font-size: 4.5em;
   }
 }
 @media all and (min-width: 93.75em) {
-  /* line 99, ../sass/style.scss */
+  /* line 98, ../sass/style.scss */
   .homeTitle h1 {
     font-size: 5em;
   }
 }
 @media all and (min-width: 112.5em) {
-  /* line 105, ../sass/style.scss */
+  /* line 104, ../sass/style.scss */
   .homeTitle h1 {
     font-size: 6em;
   }
 }
-/* line 110, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 section {
   padding: 0;
   height: 40em;
@@ -178,161 +178,161 @@ section {
 }
 
 @media all and (min-width: 25em) {
-  /* line 118, ../sass/style.scss */
+  /* line 117, ../sass/style.scss */
   section {
     padding-left: 6%;
   }
 }
 @media all and (min-width: 32.063em) {
-  /* line 124, ../sass/style.scss */
+  /* line 123, ../sass/style.scss */
   section {
     padding-left: 15%;
   }
 }
 @media all and (min-width: 39.375em) {
-  /* line 130, ../sass/style.scss */
+  /* line 129, ../sass/style.scss */
   section {
     padding-left: 24%;
   }
 }
 @media all and (min-width: 47.75em) {
-  /* line 136, ../sass/style.scss */
+  /* line 135, ../sass/style.scss */
   section {
     padding-left: 6%;
   }
 }
 @media all and (min-width: 77.5em) {
-  /* line 142, ../sass/style.scss */
+  /* line 141, ../sass/style.scss */
   section {
     padding-left: 7%;
   }
 }
 @media all and (min-width: 79.375em) {
-  /* line 148, ../sass/style.scss */
+  /* line 147, ../sass/style.scss */
   section {
     padding-left: 8%;
   }
 }
 @media all and (min-width: 81.25em) {
-  /* line 154, ../sass/style.scss */
+  /* line 153, ../sass/style.scss */
   section {
     padding-left: 10%;
   }
 }
 @media all and (min-width: 84.375em) {
-  /* line 160, ../sass/style.scss */
+  /* line 159, ../sass/style.scss */
   section {
     padding-left: 11%;
   }
 }
 @media all and (min-width: 87.5em) {
-  /* line 166, ../sass/style.scss */
+  /* line 165, ../sass/style.scss */
   section {
     padding-left: 12%;
   }
 }
 @media all and (min-width: 90.625em) {
-  /* line 172, ../sass/style.scss */
+  /* line 171, ../sass/style.scss */
   section {
     padding-left: 13%;
   }
 }
 @media all and (min-width: 93.75em) {
-  /* line 178, ../sass/style.scss */
+  /* line 177, ../sass/style.scss */
   section {
     padding-left: 14%;
   }
 }
 @media all and (min-width: 96.875em) {
-  /* line 184, ../sass/style.scss */
+  /* line 183, ../sass/style.scss */
   section {
     padding-left: 15%;
   }
 }
 @media all and (min-width: 100em) {
-  /* line 190, ../sass/style.scss */
+  /* line 189, ../sass/style.scss */
   section {
     padding-left: 6%;
   }
 }
 @media all and (min-width: 103.125em) {
-  /* line 196, ../sass/style.scss */
+  /* line 195, ../sass/style.scss */
   section {
     padding-left: 8%;
   }
 }
 @media all and (min-width: 106.25em) {
-  /* line 202, ../sass/style.scss */
+  /* line 201, ../sass/style.scss */
   section {
     padding-left: 9%;
   }
 }
 @media all and (min-width: 112.5em) {
-  /* line 208, ../sass/style.scss */
+  /* line 207, ../sass/style.scss */
   section {
     padding-left: 10%;
   }
 }
 @media all and (min-width: 118.75em) {
-  /* line 214, ../sass/style.scss */
+  /* line 213, ../sass/style.scss */
   section {
     padding-left: 5%;
   }
 }
-/* line 219, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .featuredPlaylist {
   width: 22em;
   height: 31em;
 }
 
 @media all and (min-width: 47.75em) {
-  /* line 225, ../sass/style.scss */
+  /* line 224, ../sass/style.scss */
   .featuredPlaylist {
     padding-left: 25%;
   }
 }
 @media all and (min-width: 68.75em) {
-  /* line 231, ../sass/style.scss */
+  /* line 230, ../sass/style.scss */
   .featuredPlaylist {
     padding-left: 30%;
   }
 }
 @media all and (min-width: 71.188em) {
-  /* line 237, ../sass/style.scss */
+  /* line 236, ../sass/style.scss */
   .featuredPlaylist {
     padding-left: 0;
     float: left;
   }
 }
 @media all and (min-width: 100em) {
-  /* line 244, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
   .featuredPlaylist {
     padding-left: 12%;
     float: left;
   }
 }
 @media all and (min-width: 118.75em) {
-  /* line 251, ../sass/style.scss */
+  /* line 250, ../sass/style.scss */
   .featuredPlaylist {
     padding-left: 18%;
     float: left;
   }
 }
 @media all and (min-width: 128.125em) {
-  /* line 258, ../sass/style.scss */
+  /* line 257, ../sass/style.scss */
   .featuredPlaylist {
     padding-left: 22%;
     float: left;
   }
 }
 @media all and (min-width: 137.5em) {
-  /* line 265, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   .featuredPlaylist {
     padding-left: 25%;
     float: left;
   }
 }
-/* line 271, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .featuredPlaylist2 {
   width: 22em;
   height: 31em;
@@ -340,45 +340,45 @@ section {
 }
 
 @media all and (min-width: 51.25em) {
-  /* line 278, ../sass/style.scss */
+  /* line 277, ../sass/style.scss */
   .featuredPlaylist2 {
     padding-left: 2%;
   }
 }
 @media all and (min-width: 56.25em) {
-  /* line 284, ../sass/style.scss */
+  /* line 283, ../sass/style.scss */
   .featuredPlaylist2 {
     padding-left: 4%;
   }
 }
 @media all and (min-width: 59.375em) {
-  /* line 290, ../sass/style.scss */
+  /* line 289, ../sass/style.scss */
   .featuredPlaylist2 {
     padding-left: 5%;
     padding-top: 2%;
   }
 }
 @media all and (min-width: 68.75em) {
-  /* line 297, ../sass/style.scss */
+  /* line 296, ../sass/style.scss */
   .featuredPlaylist2 {
     padding-left: 8%;
   }
 }
 @media all and (min-width: 71.188em) {
-  /* line 303, ../sass/style.scss */
+  /* line 302, ../sass/style.scss */
   .featuredPlaylist2 {
     padding-left: 0;
     padding-top: 0;
   }
 }
-/* line 309, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .itemContainer {
   width: 22em;
   height: 31em;
   float: left;
 }
 
-/* line 315, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .item {
   width: 18.750em;
   padding: 1em;
@@ -388,7 +388,7 @@ section {
   box-shadow: 0 0 1px #ccc;
 }
 
-/* line 324, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .itemTitle {
   height: 4em;
   width: 20.750em;
@@ -403,7 +403,7 @@ section {
   box-shadow: 0 0 1px #9C9C9C;
 }
 
-/* line 338, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .itemTitle h2 {
   font-family: "coolvetica",sans-serif;
   font-style: normal;
@@ -414,18 +414,18 @@ section {
   font-size: 1.5em;
 }
 
-/* line 348, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 .playlist {
   width: 300px;
   height: 380px;
 }
 
-/* line 353, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .info {
   display: none;
 }
 @media all and (min-width: 43em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     display: block;
     width: 70px;
@@ -440,56 +440,56 @@ section {
   }
 }
 @media all and (min-width: 50em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     right: 19%;
   }
 }
 @media all and (min-width: 56.25em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     right: 25%;
   }
 }
 @media all and (min-width: 71.188em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     right: 6%;
     top: 7em;
   }
 }
 @media all and (min-width: 78.75em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     right: 4%;
     top: 29em;
   }
 }
 @media all and (min-width: 88em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     right: 8%;
   }
 }
 @media all and (min-width: 100em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     right: 12%;
   }
 }
 @media all and (min-width: 120em) {
-  /* line 353, ../sass/style.scss */
+  /* line 352, ../sass/style.scss */
   .info {
     right: 18%;
   }
 }
 
-/* line 401, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .info:hover {
   -webkit-transform: scale(1.05) rotate(3deg);
 }
 
-/* line 405, ../sass/style.scss */
+/* line 404, ../sass/style.scss */
 .info span.circleTop {
   transition: all .3s ease-out;
   position: absolute;
@@ -504,14 +504,14 @@ section {
   border-radius: 50px;
 }
 
-/* line 420, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 .info:hover span.circleTop {
   background-color: rgba(0, 0, 0, 0.1);
   top: -20px;
   left: -20px;
 }
 
-/* line 426, ../sass/style.scss */
+/* line 425, ../sass/style.scss */
 .info span.circleBtm {
   transition: all .3s ease-out;
   position: absolute;
@@ -526,7 +526,7 @@ section {
   border-radius: 50px;
 }
 
-/* line 440, ../sass/style.scss */
+/* line 439, ../sass/style.scss */
 .info:hover span.circleBtm {
   background-color: rgba(0, 0, 0, 0.1);
   top: -20px;
